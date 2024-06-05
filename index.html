@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Configuration</title>
+    <title>Open Android Settings</title>
 </head>
 <body>
-    <h1>Welcome to Our Network</h1>
-    <p>To configure your device, please open the Wi-Fi settings:</p>
-    <a href="intent://settings#Intent;action=android.settings.WIFI_SETTINGS;end">Open Wi-Fi Settings</a>
-    <p>If the link does not work, please open the Wi-Fi settings manually on your device.</p>
+    <h1>Open Android Settings from Web Page</h1>
+    <p><a href="intent://settings#Intent;scheme=android-app;package=com.android.settings;end">Open Main Settings</a></p>
+    <p><a href="intent://wifi_settings#Intent;scheme=android-app;package=com.android.settings;end">Open Wi-Fi Settings</a></p>
+    <p><a href="intent://bluetooth_settings#Intent;scheme=android-app;package=com.android.settings;end">Open Bluetooth Settings</a></p>
+    <p><a href="intent://data_usage#Intent;scheme=android-app;package=com.android.settings;end">Open Data Usage Settings</a></p>
+    <p><a href="intent://location#Intent;scheme=android-app;package=com.android.settings;end">Open Location Settings</a></p>
+    <p><a href="intent://security#Intent;scheme=android-app;package=com.android.settings;end">Open Security Settings</a></p>
+    <p><a href="intent://application#Intent;scheme=android-app;package=com.android.settings;end">Open Application Settings</a></p>
 </body>
 </html>
